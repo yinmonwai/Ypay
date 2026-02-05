@@ -28,15 +28,18 @@
     "plugins": [
       "expo-router",
       [
-        "expo-splash-screen",
+        "expo-camera",
+        // {
+        //   "image": "./assets/images/splash-icon.png",
+        //   "imageWidth": 200,
+        //   "resizeMode": "contain",
+        //   "backgroundColor": "#ffffff",
+        //   "dark": {
+        //     "backgroundColor": "#000000"
+        //   }
+        // }
         {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff",
-          "dark": {
-            "backgroundColor": "#000000"
-          }
+"cameraPermission": "Allow $(PRODUCT_NAME) to access your camera to scan QR codes."
         }
       ]
     ],
