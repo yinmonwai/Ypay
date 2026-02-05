@@ -8,11 +8,11 @@ import { MaterialIcons } from "@expo/vector-icons";
 import { useState } from "react";
 export default function Transactions() {
   const [transactions, setTransactions] = useState([
-    { id: 1, msg: "EPC Bill", type: "out", time: "Jul 6, 2024" },
-    { id: 2, msg: "Deposit", type: "in", time: "Jul 5, 2024" },
-    { id: 3, msg: "Transfer", type: "in", time: "Jul 5, 2024" },
-    { id: 4, msg: "Wifi Bill", type: "out", time: "Jul 4, 2024" },
-    { id: 5, msg: "Payment", type: "in", time: "Jul 4, 2024" },
+    { id: 1, msg: "EPC Bill", type: "out", time: "Jan 6, 2026" },
+    { id: 2, msg: "Deposit", type: "in", time: "Jan 5, 2026" },
+    { id: 3, msg: "Transfer", type: "in", time: "Jan 5, 2026" },
+    { id: 4, msg: "Wifi Bill", type: "out", time: "Jan 4, 2026" },
+    { id: 5, msg: "Payment", type: "in", time: "Jan 4, 2026" },
   ]);
   return (
     <ScrollView>
